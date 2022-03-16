@@ -9,12 +9,12 @@ import org.junit.Test;
 public class DateTest {
 
 	@Test
-	public void test() {
+	public void testDate() {
 		Date date = new Date();
 		Class<? extends Date> class1 = date.getClass();
 		String name = class1.getName();
 		
-		assertEquals("", name);
+		assertEquals("java.util.Date", name);
 	}
 
 }
