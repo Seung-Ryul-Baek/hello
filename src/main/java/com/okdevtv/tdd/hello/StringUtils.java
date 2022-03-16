@@ -4,6 +4,10 @@ import java.text.NumberFormat;
 import java.util.Locale;
 
 public class StringUtils {
+	private StringUtils( ) {
+		
+	}
+	
 	public static String comma(long input) {
 		return NumberFormat.getNumberInstance(Locale.US).format(input);
 		
