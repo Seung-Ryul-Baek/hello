@@ -16,5 +16,10 @@ public class DateTest {
 		
 		assertEquals("java.util.Date", name);
 	}
+	
+	@Test
+	public void testTimestamp() {
+		assertTrue(new Date().getTime() > 1L);
+	}
 
 }
